@@ -1,0 +1,85 @@
+#com-header-bar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+#com-header-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+    margin-right: 4%;
+}
+#sort-bar-text {
+    margin-left: 2%;
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .8px;
+}
+#user-comment-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+.user-circle-db {
+    font-size: 40px;
+    color: darkslateblue;
+}
+#user-com {
+    width: 100%;
+    font-size: 14px;
+    color: #A5A5A5;
+    align-self: center;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid #EEEEEE;
+}
+.com-row {
+    display: flex;
+    width: 100%;
+}
+.com-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.user {
+    font-size: 40px;
+}
+.user2,
+.user5,
+.user9 {
+    color: goldenrod;
+}
+.user1,
+.user3,
+.user10 {
+    color: cornflowerblue;
+}
+.user4,
+.user6,
+.user7 {
+    color: maroon;
+}
+.commenter-name {
+    font-size: 13px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.post-date {
+    margin-left: 1.8%;
+    margin-top: 1%;
+    font-size: 12px;
+    color: #A5A5A5;
+    padding-top: .1%;
+}
+.comment-text {
+    font-size: 14px;
+    margin-bottom: 1.8%;
+    margin-top: .5%;
+}
+.reply {
+    font-size: 13px;
+    color: #A5A5A5;
+    margin-bottom: 4%;
+    padding-top: .5%;
+}

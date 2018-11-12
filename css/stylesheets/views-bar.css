@@ -1,0 +1,66 @@
+.main-vid-placeholder {
+    width: 720px;
+    height: 400px;
+    background-color: #eee;
+}
+
+#video-title {
+    margin-top: 3.3%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#views-bar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#views {
+    color: rgb(150, 145, 150);
+    font-size: 16px;
+    font-weight: 400;
+    flex-basis: 20%;
+}
+
+#views-icons {
+    width: 100%;
+    padding-top: .5%;
+    margin-bottom: 2.2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.thumbs-up-num,
+.thumbs-down-num {
+    font-size: 14px;
+    color: #A5A5A5;
+    padding: .5%;
+    font-weight: 500;
+}
+
+.thumbs-up-num {
+    margin-right: 3%;
+}
+
+.thumbs-down-num {
+    margin-right: 6%;
+}
+
+.fa-thumbs-up,
+.fa-thumbs-down,
+.fa-share,
+.fa-save {
+    margin-right: 1.5%;
+}
+
+.share-text,
+.save-text {
+    font-size: 12px;
+    color: #A5A5A5;
+    margin-right: 4%;
+    padding-top: .5%;
+}
